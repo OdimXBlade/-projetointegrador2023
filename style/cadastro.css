@@ -1,0 +1,132 @@
+body{ 
+  background: linear-gradient(-140deg, rgb(223, 233, 249) 40%, rgb(255, 255, 255));
+}
+#containerprincipal{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+@font-face {
+    font-family: fontAlice;
+    src: url(fonts/Alice_in_Wonderland_3.ttf);
+  }
+  @font-face {
+    font-family: fontEva;
+    src: url(fonts/evanescent.ttf);
+  }
+h1{
+    font-size: 40px;
+    font-family: fontAlice;
+    font-style: italic;
+    color: rgb(0, 76, 176);
+    border-radius: 16px;
+    box-shadow: 3px 3px 15px black;
+    padding: 6px;
+    padding-right: 6px;
+    background-color: rgb(255, 250, 250);
+    
+    height: 45px;
+
+    
+}
+h2{
+    font-size: 30px;
+    font-family: fontMedieval;
+    width: 99%;
+    height: 35px;
+    background-color: rgb(0, 76, 176);
+    border: solid rgb(255, 255, 255) 5px;    
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+    text-align: center;
+    
+    text-decoration: none;
+ }
+ @font-face {
+    font-family: fontMedieval;
+    src: url(fonts/MedievalSharp-Bold.ttf);
+  }
+ @font-face {
+     font-family: fontDragon;
+     src: url(fonts/Dragonlord_PERSONAL_USE_ONLY.otf);
+   }
+   @font-face {
+    font-family: fontMagik;
+    src: url(fonts/MagicSchoolOne.ttf);
+  }
+   
+a{
+    width: 40%;
+    height: 35px;
+    background-color: rgb(0, 76, 176);
+    border: solid rgb(255, 255, 255) 5px;    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 33px;
+    text-align: center;
+    font-family: fontEva;
+    text-decoration: none;
+    margin-left: 2%;
+}
+a:hover{
+  background-color: rgb(55, 55, 55);
+}
+#respons{
+  width: 100%;
+  height: 40px;
+  margin-left: 10px;
+}
+.bt_cadastrar{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 76, 176);
+    border: solid rgb(255, 255, 255) 5px;    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 33px;
+    text-align: center;
+    font-family: fontEva;
+    text-decoration: none;
+    margin-left: 4%;
+    
+}
+.bt_cadastrar:hover {
+    cursor: pointer;
+    background-color: rgb(110, 107, 107);
+      cursor: pointer;
+      color: rgb(57, 58, 59);
+    
+  }
+  #imagemlogo{
+    
+    width: 22%;
+    
+}
+@media (max-width: 480px) {
+  h1{
+    font-size: 30px;
+    height: 30px;
+  }
+  h2{
+    font-size: 26px;
+    
+    
+  }
+  .bt_cadastrar{
+    width: 80%;
+    margin-left: 12%;
+  }
+  
+  
+  
+}

@@ -1,0 +1,155 @@
+
+body {
+  background: linear-gradient(-140deg, rgb(223, 233, 249) 40%, rgb(255, 255, 255));
+}
+  @font-face {
+    font-family: fontAlice;
+    src: url(fonts/Alice_in_Wonderland_3.ttf);
+  }
+  @font-face {
+    font-family: fontEva;
+    src: url(fonts/evanescent.ttf);
+  }
+  
+
+h1{
+    font-size: 55px;
+    font-family: fontEva;
+    font-style: italic;
+    color: rgb(4, 4, 4);
+    
+    margin-left: 545px;
+    margin-right: 600px;
+    
+    margin-bottom: 45px;
+    
+    padding: 6px;
+    padding-right: 6px;
+    width: 317px;
+    height: 55px;
+}
+#imagemlogo{
+    
+    width: 22%;
+    margin-left: 34%;
+}
+ul li{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 76, 176);
+    border: groove 0px black;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 6px 6px 9px black;
+    padding: 5px;
+    width: 480px;
+    margin-left: 345px;
+
+}
+ul li:hover{
+  background-color: rgb(0, 35, 80);
+}
+h2{
+    font-size: 30px;
+    font-family: fontMedieval;
+ }
+ @font-face {
+    font-family: fontMedieval;
+    src: url(fonts/MedievalSharp-Bold.ttf);
+  }
+
+  a{
+    text-decoration: none;
+    
+  }
+  .sair{
+    width: 480px;
+    height: 35px;
+    background-color: rgb(245, 243, 247);
+    border: solid rgb(255, 255, 255) 5px;    color: rgb(236, 76, 90);
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 33px;
+    text-align: center;
+    font-family: fontEva;
+    text-decoration: none;
+  }
+  .sair:hover{
+    background-color: rgb(110, 107, 107);
+    cursor: pointer;
+    color: rgb(67, 9, 122);
+  }
+
+  .logo{
+    width: 100px;
+  }
+
+  @media (max-width: 480px) {
+    ul li{
+      font-size: 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: oblique;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 76, 176);
+      border: groove 0px black;
+      border-radius: 6px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: 6px 6px 9px black;
+      padding: 5px;
+      width: 180px;
+      margin-left: 15%;
+    }
+    ul li:hover{
+    background-color: rgb(0, 35, 80);
+    }
+    .sair{
+      width: 180px;
+      height: 15px;
+      background-color: rgb(146, 189, 222);
+      border: solid rgb(255, 255, 255) 5px;    color: rgb(0, 0, 0);
+      border-radius: 20px;
+      padding: 5px;
+      
+      margin-top: 25px;
+      font-size: 18px;
+      text-align: center;
+      font-family: fontEva;
+      text-decoration: none;
+      margin-left: 23%;
+    }
+    .sair:hover{
+      background-color: rgb(110, 107, 107);
+      cursor: pointer;
+      color: rgb(0, 35, 80);
+    }
+    h1{
+      font-size: 18px;
+      font-family: fontEva;
+      font-style: italic;
+      color: rgb(0, 0, 0);
+      border: unset;
+      text-align: center;
+      margin-left: 23%;
+      background-color: unset;
+      margin-bottom: 5px;
+      border: unset;
+      box-shadow: unset;
+      padding: 6px;
+      padding-right: 6px;
+      width: 180px;
+      height: 15px;
+  }
+  #imagemlogo{
+    
+    width: 33%;
+    margin-bottom: 20px;
+    
+    
+  }
+  }

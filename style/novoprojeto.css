@@ -1,0 +1,220 @@
+a{
+    width: 480px;
+    height: 35px;
+    background-color: rgb(0, 76, 176);
+    border: solid rgb(255, 255, 255) 5px;    
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    
+    margin-top: 5px;
+    font-size: 33px;
+    text-align: center;
+    font-family: fontEva;
+    text-decoration: none;
+    margin-left: 40%;
+}
+a:hover{
+    background-color: rgb(110, 107, 107);
+    cursor: pointer;
+    color: rgb(0, 76, 176);;
+}
+@font-face {
+    font-family: fontEva;
+    src: url(fonts/evanescent.ttf);
+  }
+  h2{
+    font-size: 30px;
+    font-family: fontMedieval;
+ }
+ .h1responsivo{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    box-shadow: 3px 3px 15px black;
+    padding: 6px;
+    padding-right: 6px;
+    font-family: fontAlice;
+    font-style: italic;
+    color: rgb(0, 76, 176);
+    border-radius: 16px;
+    width: 480px;
+    text-align: center;
+ }
+ 
+ @font-face {
+    font-family: fontMedieval;
+    src: url(fonts/MedievalSharp-Bold.ttf);
+  }
+#formcontainer{
+   
+    width: 480px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    margin: 7px;
+    padding: 5px;
+    margin-right: 6px;
+    justify-content: space-between;
+    
+}
+#op1{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    box-shadow: 3px 3px 15px black;
+    padding: 6px;
+    padding-right: 6px;
+    font-family: fontAlice;
+    font-style: italic;
+    color: rgb(0, 76, 176);
+    border-radius: 16px;
+    width: 480px;
+    text-align: center;
+    
+}
+select#caixa1{
+    width: 100px;
+    height: 25px;
+    
+}
+select#caixa2{
+    width: 100px;
+    height: 25px;
+}
+body{ 
+    background: linear-gradient(-140deg, rgb(223, 233, 249) 40%, rgb(255, 255, 255));
+}
+select{
+    width: 25px;
+    height: 25px;
+}
+  
+  
+  
+input{
+    background-color: rgb(252, 251, 253);
+    border-radius: 16px;
+    width: 100%;
+    height: 45px;
+}
+#p1{
+    font-size: 65px;
+    color: rgb(0, 76, 176);
+}
+#principal{
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
+margin-bottom: 5px;
+}
+.formulario {
+    display: flex;
+
+
+flex-direction: column;
+margin-bottom: 5px;
+align-items: center;
+width: 100%;
+}
+p{
+    font-size: 30px;
+    
+    color: black;
+    
+}
+.enviar{
+    
+    
+    background-color: rgb(0, 76, 176);
+    border: solid rgb(255, 255, 255) 5px;    
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 33px;
+    text-align: center;
+    font-family: fontEva;
+    text-decoration: none;
+    height: 55px;
+}
+.enviar:hover{
+    background-color: rgb(110, 107, 107);
+    cursor: pointer;
+    color: rgb(0, 76, 176);
+}
+.texto{
+    width: 380px;
+    margin-top: 20px;
+    margin-left: 60px;
+    
+    border-radius: 16px;
+    padding-left: 10px;
+    
+}
+.texto1{
+    margin-top: 2px;
+}
+.seletor{
+    height: 30px;
+    float: left;
+    width: 10%;
+    position: relative;
+    margin-bottom: 10px;
+    
+    
+}
+#imagemlogo{
+    
+    width: 22%;
+    
+}
+.caixaresponsiv{
+    text-align: center;
+    font-size: 25px;
+}
+@media (max-width: 480px) {
+    h1{
+        width: 80%;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 8%;
+    }
+    p{
+        font-size: 21px;
+        
+    }
+    #op1{
+        width: 83%;
+        text-align: center;
+        margin-left: 8%;
+    }
+    .texto{
+        margin-top: 10px;
+        
+    }
+    .caixaresponsiv{
+        width: 84%;
+        margin-left: 7%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .responsialt{
+        width: 340px;
+    }
+    .novorespons{
+        width: 340px;
+    }
+    p{
+        font-weight: bolder;
+    }
+    .seletor{
+        margin-left: 30px;
+    }
+    .h1responsivo{
+        width: 83%;
+        margin-right: 30px;
+    }
+    
+}
